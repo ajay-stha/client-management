@@ -37,3 +37,12 @@ php artisan migrate --seed
 
 # Start the development server
 php artisan serve
+
+# Start the npm server
+npm run dev
+```
+
+## Dependency
+This application uses Laravel Breeze as it is a minimal, simple implementation of all of Laravel's authentication features, including login, registration, password reset, email verification, and password confirmation. 
+
+Laravel Breeze offers several options for your view layer, including Blade templates, or Vue and React with Inertia. Feel free to learn more about [Laravel Breeze](https://laravel.com/docs/10.x/starter-kits#laravel-breeze).
